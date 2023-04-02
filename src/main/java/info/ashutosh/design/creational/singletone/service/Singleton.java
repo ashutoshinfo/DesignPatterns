@@ -1,4 +1,4 @@
-package info.ashutosh.design.creational;
+package info.ashutosh.design.creational.singletone.service;
 
 public class Singleton {
 

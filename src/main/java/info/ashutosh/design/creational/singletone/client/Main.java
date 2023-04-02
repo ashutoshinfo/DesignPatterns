@@ -1,4 +1,6 @@
-package info.ashutosh.design.creational;
+package info.ashutosh.design.creational.singletone.client;
+
+import info.ashutosh.design.creational.singletone.service.Singleton;
 
 public class Main {
 	public static void main(String[] args) throws InterruptedException {
