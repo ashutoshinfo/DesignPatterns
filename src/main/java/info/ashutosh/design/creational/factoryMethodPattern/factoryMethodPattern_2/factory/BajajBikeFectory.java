@@ -1,4 +1,4 @@
-package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.method;
+package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.factory;
 
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajBike;
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.enums.ModelType;

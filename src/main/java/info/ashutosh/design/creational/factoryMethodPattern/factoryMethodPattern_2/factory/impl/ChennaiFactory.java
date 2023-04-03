@@ -1,11 +1,11 @@
-package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.factory;
+package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.factory.impl;
 
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajBike;
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajDiscoverBike;
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajPlatinaBike;
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajPulerBike;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.impl.BajajDiscoverBike;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.impl.BajajPlatinaBike;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.impl.BajajPulerBike;
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.enums.ModelType;
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.method.BajajBikeFectory;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.factory.BajajBikeFectory;
 
 public class ChennaiFactory extends BajajBikeFectory {
 
