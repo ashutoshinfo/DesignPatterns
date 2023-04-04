@@ -5,9 +5,7 @@ import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern
 public class SMSNotificationService implements NotificationService {
 
 	@Override
-	public void notifyUser()
-	{
-		// TODO Auto-generated method stub
+	public void notifyUser() {
 		System.out.println("Sending an SMS notification");
 	}
 }

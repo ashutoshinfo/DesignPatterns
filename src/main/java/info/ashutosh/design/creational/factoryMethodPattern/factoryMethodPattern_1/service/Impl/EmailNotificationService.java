@@ -7,6 +7,5 @@ public class EmailNotificationService implements NotificationService {
 	@Override
 	public void notifyUser() {
 		System.out.println("Sending an e-mail notification");
-		Integer.valueOf(0);
 	}
 }
