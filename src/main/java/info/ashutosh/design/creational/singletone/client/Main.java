@@ -21,6 +21,7 @@ public class Main {
 			System.out.println(Thread.currentThread().getName() +" : Instance HashCode: " + instance3.hashCode());
 			System.out.println(Thread.currentThread().getName() +" : Instance HashCode: " + instance4.hashCode());
 		});
+		
 		thread1.start();
 		thread2.start();
 		thread1.join();

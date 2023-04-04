@@ -1,7 +1,6 @@
 package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.factory;
 
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike.BajajBike;
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.enums.ModelType;
 
 // Factory Method Pattern
 public abstract class BajajBikeFectory {
@@ -13,10 +12,10 @@ public abstract class BajajBikeFectory {
 
 	public abstract void roadTest();
 
-	public abstract BajajBike createBike(ModelType modelType);
+	public abstract BajajBike createBike(String model);
 
-	public BajajBike orderBike(ModelType modelType) {
-		BajajBike bajajBike = createBike(modelType);
+	public BajajBike orderBike(String model) {
+		BajajBike bajajBike = createBike(model);
 		painting();
 		assambling();
 		engineTest();

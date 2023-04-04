@@ -1,6 +1,6 @@
-package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_3;
+package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_3.producer;
 
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_3.producer.CharacterFactory;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_3.factory.CharacterFactory;
 import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_3.product.Character;
 
 public class Game {

@@ -1,8 +1,8 @@
 package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_1.service.Impl;
 
-import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_1.service.Notification;
+import info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_1.service.NotificationService;
 
-public class SMSNotification implements Notification {
+public class SMSNotificationService implements NotificationService {
 
 	@Override
 	public void notifyUser()
