@@ -1,21 +1,22 @@
 package info.ashutosh.design.creational.abstractFectory.factory;
 
+import info.ashutosh.design.creational.abstractFectory.enums.PartType;
 import info.ashutosh.design.creational.abstractFectory.poducer.Parts;
-import info.ashutosh.design.creational.abstractFectory.poducer.battry.impl.FirstCopyBattryProducer;
+import info.ashutosh.design.creational.abstractFectory.poducer.battry.impl.FirstCopyBatteryProducer;
 import info.ashutosh.design.creational.abstractFectory.poducer.display.impl.FirstCopyDisplayProducer;
 
 public class FirstCopyFactory implements CommonFactoryRules {
 
 	@Override
-	public Parts supplyParts(String partName) {
+	public Parts supplyParts(PartType partType) {
 
-		switch (partName) {
-		case "bettry":
+		switch (partType) {
+		case BATTERY:
 			return new FirstCopyDisplayProducer();
-		case "display":
-			return new FirstCopyBattryProducer();
+		case DISPLAY:
+			return new FirstCopyBatteryProducer();
 		default:
-			throw new IllegalArgumentException("Unknown notifyType " + partName);
+			throw new IllegalArgumentException("Unknown notifyType " + partType);
 		}
 
 	}

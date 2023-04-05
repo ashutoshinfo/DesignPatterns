@@ -1,8 +1,8 @@
 package info.ashutosh.design.creational.abstractFectory.poducer.battry.impl;
 
-import info.ashutosh.design.creational.abstractFectory.poducer.battry.Battry;
+import info.ashutosh.design.creational.abstractFectory.poducer.battry.Battery;
 
-public class FirstCopyBattryProducer implements Battry {
+public class FirstCopyBatteryProducer extends Battery {
 
 	@Override
 	public void battry() {

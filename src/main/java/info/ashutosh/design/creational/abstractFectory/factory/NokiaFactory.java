@@ -1,21 +1,22 @@
 package info.ashutosh.design.creational.abstractFectory.factory;
 
+import info.ashutosh.design.creational.abstractFectory.enums.PartType;
 import info.ashutosh.design.creational.abstractFectory.poducer.Parts;
-import info.ashutosh.design.creational.abstractFectory.poducer.battry.impl.NokiaBattryProduer;
+import info.ashutosh.design.creational.abstractFectory.poducer.battry.impl.NokiaBatteryProduer;
 import info.ashutosh.design.creational.abstractFectory.poducer.display.impl.NokiaDisplayProduer;
 
 public class NokiaFactory implements CommonFactoryRules {
 
 	@Override
-	public Parts supplyParts(String partName) {
+	public Parts supplyParts(PartType partType) {
 
-		switch (partName) {
-		case "bettry":
-			return new NokiaBattryProduer();
-		case "display":
+		switch (partType) {
+		case BATTERY:
+			return new NokiaBatteryProduer();
+		case DISPLAY:
 			return new NokiaDisplayProduer();
 		default:
-			throw new IllegalArgumentException("Unknown notifyType " + partName);
+			throw new IllegalArgumentException("Unknown notifyType " + partType);
 		}
 
 	}
