@@ -12,11 +12,19 @@ public class Client {
 		CommonFactoryRules supplyParts = AbstractFactory.supplyFactory(FactoryType.NOKIA);
 
 		Parts battryPart = supplyParts.supplyParts(PartType.BATTERY);
-		battryPart.battry();
-		//battryPart.display();
+		try {
+			battryPart.battry();
+			battryPart.display();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 		Parts displayPart = supplyParts.supplyParts(PartType.DISPLAY);
-		displayPart.display();
+		try {
+			displayPart.display();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 
