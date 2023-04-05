@@ -14,7 +14,7 @@ public abstract class BajajBikeFectory {
 
 	public abstract BajajBike createBike(String model);
 
-	public BajajBike orderBike(String model) {
+	public final BajajBike orderBike(String model) {
 		BajajBike bajajBike = createBike(model);
 		painting();
 		assambling();

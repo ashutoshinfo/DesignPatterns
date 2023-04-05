@@ -28,16 +28,7 @@ public class NagporFactory extends BajajBikeFectory {
 		System.out.println("NagporFactory.roadTest()");
 	}
 
-	// Problem
-	// Manipulation
-	public BajajBike orderBike(String model) {
-		BajajBike bajajBike = createBike(model);
-		assambling();
-		painting();
-		roadTest();
-		engineTest();
-		return bajajBike;
-	}
+	
 
 	@Override
 	public BajajBike createBike(String model) {
