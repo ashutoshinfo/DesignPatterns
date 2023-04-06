@@ -22,6 +22,7 @@ public class Client {
 		Parts displayPart = supplyParts.supplyParts(PartType.DISPLAY);
 		try {
 			displayPart.display();
+			displayPart.battry();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
