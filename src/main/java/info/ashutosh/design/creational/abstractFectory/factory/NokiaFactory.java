@@ -16,7 +16,7 @@ public class NokiaFactory implements CommonFactoryRules {
 		case DISPLAY:
 			return new NokiaDisplayProduer();
 		default:
-			throw new IllegalArgumentException("Unknown notifyType " + partType);
+			throw new IllegalArgumentException("Unknown Part Type " + partType);
 		}
 
 	}

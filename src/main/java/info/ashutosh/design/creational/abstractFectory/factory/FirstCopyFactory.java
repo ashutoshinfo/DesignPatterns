@@ -16,7 +16,7 @@ public class FirstCopyFactory implements CommonFactoryRules {
 		case DISPLAY:
 			return new FirstCopyBatteryProducer();
 		default:
-			throw new IllegalArgumentException("Unknown notifyType " + partType);
+			throw new IllegalArgumentException("Unknown Part Type " + partType);
 		}
 
 	}
