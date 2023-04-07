@@ -14,7 +14,7 @@ public abstract class BajajBikeFectory {
 
 	public abstract BajajBike createBike(String model);
 
-	// mandatory final
+	// Mandatory final so the method calls remain aligned.
 	public final BajajBike orderBike(String model) {
 		BajajBike bajajBike = createBike(model);
 		painting();
