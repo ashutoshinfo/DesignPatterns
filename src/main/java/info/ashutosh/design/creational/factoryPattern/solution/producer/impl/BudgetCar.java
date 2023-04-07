@@ -1,6 +1,6 @@
 package info.ashutosh.design.creational.factoryPattern.solution.producer.impl;
 
-import info.ashutosh.design.creational.factoryPattern.problem.producer.Car;
+import info.ashutosh.design.creational.factoryPattern.solution.producer.Car;
 
 public class BudgetCar extends Car {
 
