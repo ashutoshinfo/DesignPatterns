@@ -1,4 +1,4 @@
-package info.ashutosh.design.behavioural.templateDesignPattern.template;
+package info.ashutosh.design.behavioural.templateDesignPattern1.template;
 
 public abstract class Sandwich {
 

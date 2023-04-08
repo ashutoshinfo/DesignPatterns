@@ -1,6 +1,6 @@
-package info.ashutosh.design.behavioural.templateDesignPattern.template.impl;
+package info.ashutosh.design.behavioural.templateDesignPattern1.template.impl;
 
-import info.ashutosh.design.behavioural.templateDesignPattern.template.Sandwich;
+import info.ashutosh.design.behavioural.templateDesignPattern1.template.Sandwich;
 
 public class TurkeySandwich extends Sandwich {
 
