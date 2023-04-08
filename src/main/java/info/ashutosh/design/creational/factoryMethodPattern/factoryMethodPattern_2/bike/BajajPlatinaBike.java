@@ -1,6 +1,6 @@
 package info.ashutosh.design.creational.factoryMethodPattern.factoryMethodPattern_2.bike;
 public class BajajPlatinaBike implements BajajBike {
-	private String price;
+	//private String price;
 
 
 	@Override
