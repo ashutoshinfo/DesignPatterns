@@ -18,8 +18,7 @@ public abstract class Sandwich {
 
 	protected abstract void addCondiments();
 
-	// These are the concrete methods that define the overall sandwich-making
-	// process
+	// These are the concrete methods that define the overall sandwich-making process
 	protected void cutBread() {
 		System.out.println("Cutting the bread");
 	}
