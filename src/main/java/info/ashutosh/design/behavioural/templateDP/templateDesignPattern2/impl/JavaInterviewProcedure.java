@@ -1,6 +1,6 @@
-package info.ashutosh.design.behavioural.templateDesignPattern2.template.impl;
+package info.ashutosh.design.behavioural.templateDP.templateDesignPattern2.impl;
 
-import info.ashutosh.design.behavioural.templateDesignPattern2.template.ConcreteInterviewProcedure;
+import info.ashutosh.design.behavioural.templateDP.templateDesignPattern2.ConcreteInterviewProcedure;
 
 public class JavaInterviewProcedure extends ConcreteInterviewProcedure {
 

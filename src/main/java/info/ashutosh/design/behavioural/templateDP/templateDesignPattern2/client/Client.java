@@ -1,6 +1,6 @@
-package info.ashutosh.design.behavioural.templateDesignPattern2.template.client;
+package info.ashutosh.design.behavioural.templateDP.templateDesignPattern2.client;
 
-import info.ashutosh.design.behavioural.templateDesignPattern2.template.impl.JavaInterviewProcedure;
+import info.ashutosh.design.behavioural.templateDP.templateDesignPattern2.impl.JavaInterviewProcedure;
 
 public class Client {
 	public static void main(String[] args) {

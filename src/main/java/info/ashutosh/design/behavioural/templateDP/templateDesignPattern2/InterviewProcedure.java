@@ -1,4 +1,4 @@
-package info.ashutosh.design.behavioural.templateDesignPattern2.template;
+package info.ashutosh.design.behavioural.templateDP.templateDesignPattern2;
 
 public interface InterviewProcedure {
 
