@@ -2,13 +2,6 @@ package info.ashutosh.design.creational.builderdesignPattern.builderDP1.builder;
 
 public class User {
 
-	static {
-		System.out.println("User.enclosing_method()");
-	}
-	
-	{
-		System.out.println("User.enclosing_method()");
-	}
 	private final String username;
 	private final String email;
 	private final String password;
@@ -25,16 +18,6 @@ public class User {
 		this.age = builder.age;
 	}
 
-	public User() {
-		this.username = "";
-		this.email = "";
-		this.password = "";
-		this.firstName = "";
-		this.lastName = "";
-		this.age = 0;
-		System.out.println("User.User()");
-	}
-
 	public static class UserBuilder {
 		private final String username;
 		private final String email;
@@ -43,28 +26,11 @@ public class User {
 		private String lastName;
 		private int age;
 
-		static {
-			System.out.println("User.UserBuilder.enclosing_method()");
-		}
-
-		{
-			System.out.println("User.UserBuilder.enclosing_method()");
-		}
-
-		public UserBuilder() {
-			this.username = "";
-			this.email = "";
-			this.password = "";
-			this.firstName = "";
-			this.lastName = "";
-			this.age = 0;
-			System.out.println("User.UserBuilder.UserBuilder()");
-		}
-
 		public UserBuilder(String username, String email, String password) {
 			this.username = username;
 			this.email = email;
 			this.password = password;
+
 		}
 
 		public UserBuilder firstName(String firstName) {
@@ -93,4 +59,5 @@ public class User {
 		}
 
 	}
+
 }
