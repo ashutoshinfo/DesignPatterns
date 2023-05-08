@@ -5,7 +5,7 @@ import info.ashutosh.design.behavioural.templateDP.templateDesignPattern1.templa
 public class VeggieSandwich extends Sandwich {
 
 	@Override
-	protected void addMeat() {
+	protected void addPaneer() {
 		// No meat for veggie sandwich
 	}
 

@@ -5,14 +5,14 @@ public abstract class Sandwich {
 	// This is the template method that defines the overall sandwich-making process
 	public final void makeSandwich() {
 		cutBread();
-		addMeat();
+		addPaneer();
 		addVegetables();
 		addCondiments();
 		wrapSandwich();
 	}
 
 	// These are the abstract methods that subclasses need to implement
-	protected abstract void addMeat();
+	protected abstract void addPaneer();
 
 	protected abstract void addVegetables();
 

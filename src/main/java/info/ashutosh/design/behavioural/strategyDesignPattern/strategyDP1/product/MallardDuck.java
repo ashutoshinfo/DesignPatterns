@@ -1,13 +1,14 @@
 package info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.product;
 
-import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaior.fly.specification.IFlyBehavior;
-import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaior.quack.specification.IQuackBehavior;
+import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaior.fly.FlyWithWings;
+import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaior.quack.Quack;
 import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.product.specification.Duck;
 
 public class MallardDuck extends Duck {
 
-	public MallardDuck(IFlyBehavior iIFlyBehavior, IQuackBehavior iQuackBehavior) {
-		super(iIFlyBehavior, iQuackBehavior);
+	public MallardDuck() {
+		iQuackBehavior = new Quack();
+		iIFlyBehavior = new FlyWithWings();
 	}
 
 	@Override

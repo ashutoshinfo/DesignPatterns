@@ -5,7 +5,7 @@ import info.ashutosh.design.behavioural.templateDP.templateDesignPattern1.templa
 public class TurkeySandwich extends Sandwich {
 
 	@Override
-	protected void addMeat() {
+	protected void addPaneer() {
 		System.out.println("Adding turkey");
 	}
 

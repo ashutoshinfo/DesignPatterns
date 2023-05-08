@@ -4,16 +4,12 @@ import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaio
 import info.ashutosh.design.behavioural.strategyDesignPattern.strategyDP1.behaior.quack.specification.IQuackBehavior;
 
 public abstract class Duck {
-	IFlyBehavior iIFlyBehavior;
-	IQuackBehavior iQuackBehavior;
 
-	public Duck(IFlyBehavior iIFlyBehavior, IQuackBehavior iQuackBehavior) {
-		this.iIFlyBehavior = iIFlyBehavior;
-		this.iQuackBehavior = iQuackBehavior;
-	}
+	protected IFlyBehavior iIFlyBehavior;
+	protected IQuackBehavior iQuackBehavior;
 
 	public Duck() {
-		// TODO Auto-generated constructor stub
+		System.out.println("Duck.Duck()");
 	}
 
 	public void performQuack() {
